@@ -12,9 +12,7 @@ export default function AdminDash() {
     return <>
         <div className='Admin_page'>
             <div className='Admin_page_column1'>
-                <div className='Admin_page_column1_topbar'>
                     <Topbar />
-                </div>
             </div>
             <div className='Admin_page_contentpart'>
                 <div className='Admin_page_contentpart_leftbar'>

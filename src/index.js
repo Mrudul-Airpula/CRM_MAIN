@@ -8,6 +8,6 @@ import SummaryC from './SummaryC';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AdminDash />
+    <ManagerDash />
   </React.StrictMode>
 );
