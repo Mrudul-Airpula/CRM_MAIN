@@ -1,11 +1,11 @@
 import "./ManagerDash.css";
-import Topbar from './Topbar';
-import LeftBar from './LeftBar';
-import Horizontalbar from './Horizontalbar';
-import Progressbar from './Progressbar';
-import Bargraph from './Bargraph';
-import Summary from './Summary';
-import SummaryC from './SummaryC';
+import Topbar from './components/Topbar';
+import LeftBar from './components/LeftBar';
+import Horizontalbar from './components/Horizontalbar';
+import Progressbar from './components/Progressbar';
+import Bargraph from './components/Bargraph';
+import Summary from './components/Summary';
+import SummaryCount from "./components/SummaryCount";
 
 export default function ManagerDash() {
     return <>
@@ -27,7 +27,7 @@ export default function ManagerDash() {
                             <Summary />
                         </div>
                         <div className="ManagerDash_page_content_area_row2_bars">
-                            <SummaryC />
+                            <SummaryCount />
                             <Progressbar />
                         </div>
                     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import './summaryC.css';
+import './SummaryCount.css';
 export default function SummaryCount() {
     return (
         <>
@@ -17,11 +17,3 @@ export default function SummaryCount() {
     );
 
 }
-
-
-{/* <div className="summarycourt1">
-                <label>Prospect Growth</label>
-            </div>
-            <div>
-                <label className="summarycount_value"># 500</label>
-            </div> */}

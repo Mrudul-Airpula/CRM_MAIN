@@ -12,7 +12,7 @@ export default function Login() {
             <AiOutlineMore className='Progressbarmore' />
           </div>
           <div className='Progressbarouter_inner_row2'>
-            <img src={circle} ></img>
+            <img src={circle}></img>
           </div>
         </div>
       </div>

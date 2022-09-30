@@ -1,18 +1,18 @@
 import "./AdminDash.css";
-import Topbar from './Topbar';
-import LeftBar from './LeftBar';
-import Horizontalbar from './Horizontalbar';
-import List from './List';
-import Progressbar from './Progressbar';
-import Bargraph from './Bargraph';
-import Summary from './Summary';
-import SummaryC from './SummaryC';
+import Topbar from './components/Topbar';
+import LeftBar from './components/LeftBar';
+import Horizontalbar from './components/Horizontalbar';
+import List from './components/List';
+import Progressbar from './components/Progressbar';
+import Bargraph from './components/Bargraph';
+import Summary from './components/Summary';
+import SummaryCount from "./components/SummaryCount";
 
 export default function AdminDash() {
     return <>
         <div className='Admin_page'>
             <div className='Admin_page_column1'>
-                    <Topbar />
+                <Topbar />
             </div>
             <div className='Admin_page_contentpart'>
                 <div className='Admin_page_contentpart_leftbar'>
@@ -21,14 +21,14 @@ export default function AdminDash() {
                 <div className='Admin_page_contentpart_main'>
                     <div className='Admin_page_contentpart_main_row1'>
                         <Bargraph />
-                        <Horizontalbar/>
+                        <Horizontalbar />
                     </div>
                     <div className='Admin_page_contentpart_main_row2'>
                         <div className="Admin_page_contentpart_main_row2_innerrow1">
                             <Summary />
                         </div>
                         <div className="Admin_page_contentpart_main_row2_innerrow2">
-                            <SummaryC />
+                            <SummaryCount />
                             <Progressbar />
                         </div>
                     </div>

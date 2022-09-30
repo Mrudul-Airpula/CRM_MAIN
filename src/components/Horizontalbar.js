@@ -1,7 +1,7 @@
 import React from "react";
 import { FaDollarSign } from "react-icons/fa";
 import { BsThreeDotsVertical } from "react-icons/bs";
-import "./horizontalbar.css"
+import "./Horizontalbar.css"
 export default function Horizontalbar() {
     return (
         <>
