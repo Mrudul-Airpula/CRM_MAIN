@@ -1,6 +1,7 @@
 body{
     margin: 0;
 }
+
 .Topbar_header{
     background-color: #f3f3f4;
     width: 100%;
@@ -106,6 +107,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     margin-right: 200px;
+    position: absolute;
 }
 .Topbar_content_cola{
     background-color: white;

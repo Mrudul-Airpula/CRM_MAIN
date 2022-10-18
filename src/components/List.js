@@ -1,6 +1,7 @@
 import { BsThreeDotsVertical, BsBellFill } from "react-icons/bs";
 import "./List.css";
 export default function List() {
+    
     return <>
         <div className="list">
             <div className="list_title">
@@ -23,12 +24,17 @@ export default function List() {
 }
 
 function SingleRow() {
+    const list = ["Larry Claton"];
     return (
         <div className="list_singlerow">
             <div className="list_singlerow_circle">
                 <BsBellFill />
             </div>
-            <label>Larry Claton</label>
+            {
+                list.map((data) =>
+                    <label>{data}</label>
+                )
+            }
             <button>Pending</button>
         </div>
     );
